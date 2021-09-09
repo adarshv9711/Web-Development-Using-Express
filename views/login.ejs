@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <script src="/javascripts/login.js"></script>
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="welcome"><span> WELCOME</span></div>
+        <div class="menu">
+            <button class="button1" onclick="location.href='#';" >Home       </button>
+            <button class="button1" onclick="location.href='#';" >Account    </button>
+            <button class="button1" onclick="location.href='#';" >Edit       </button>
+            <button class="button1" onclick="transaction()" >Transaction</button>
+            <button class="button1" onclick="location.href='/logout';" >Sign Out   </button>
+        </div>
+    </div><hr>
+    <div class="column">
+        <div class="left">
+            <ul>
+                <li><a href="">A</a></li>
+                <li><a href="">B</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">D</a></li>
+            </ul>
+        </div>
+        <div class="centre">
+           <table>
+               <tr colspan=3>
+                   <th></th>
+                   <th></th>
+                   <th></th>
+               </tr>
+               <tr>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+               <tr>
+                   <td></td>
+                   <td></td>
+                   <td></td>   
+               </tr>
+           </table>
+        </div>
+        <div class="right">
+            <button id="btn" onclick="update()">Update</button>
+            <p>Button is clicked <span id="disp">0</span> Times</p>
+        </div>
+    </div>
+    <div class="form-pop">
+        <form action="/login" class="transaction" method="POST" id="transacction">
+            <label for="amount">Amount<input type="text" name="amount" id="amount"></label>
+            <label for="accountno">Account Number<input type="number" name="accountno" id="accountno"></label>
+            <input type="submit" value="Submit" onclick="confirm()">
+        </form>
+    </div>
+</body>
+</html>

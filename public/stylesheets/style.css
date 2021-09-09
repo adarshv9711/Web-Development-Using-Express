@@ -1,0 +1,10 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: black;
+  background-image:linear-gradient(to right,rgb(192, 45, 185),30%,rgb(209, 14, 128));
+}
+
+a {
+  color: #00B7FF;
+}

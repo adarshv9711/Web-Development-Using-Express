@@ -1,0 +1,68 @@
+/*layout*/
+body
+{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashboard
+{
+    background-color: bisque;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+.welcome
+{
+    background-color: brown;
+    padding: 1em;
+    color: azure;
+}
+.menu
+{
+    display: flex;
+    background-color: brown;
+    padding: 1em;
+
+    
+}
+.column
+{
+    display: flex;
+    justify-content: space-between;
+}
+.left
+{
+    width: 15%;
+    background-color: blueviolet;
+}
+.centre
+{
+    display: flex;
+    justify-content:center;
+    border: 2px black;
+    width: 60%;
+    background-color: cadetblue;
+    padding:1em;
+}
+.right
+{
+    width: 25%;
+    background-color: chartreuse;
+}
+
+.centre table, th, td
+{
+    border: 2px solid red;
+    
+}
+th, td
+{
+    padding: 2px;
+    
+}
+
+
+
+
